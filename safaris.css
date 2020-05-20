@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fdf498;
+    box-sizing: border-box;
+}
+
+
+
+.top-banner{
+    background-color: #586780;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #fff;
+    padding: 05px 10px 05px 10px;
+    justify-content: space-around;
+}
+
+.nav-bar .logo-div{
+    display: flex;
+    
+}
+
+.nav-bar .logo{
+    width: 60px;
+}
+
+ .title-div{
+    padding: 0;
+    margin: 0;
+    
+}
+.title{
+    font-size: 25px;
+    padding:0;
+}
+.paragraph{
+    font-size: 15px;
+    padding: 0;
+}
+
+.fab{
+    padding-right: 10px;
+}
+
+.main-links{
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 10px;
+    
+}
+.main-links ol{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.main-links ol li{
+    padding-right: 20px;
+}
+
+
+
+.sub-menu-1{
+    display: none;
+}
+
+.main-links ol li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+}
+
+.main-links ol li:hover .sub-menu-1 ol{
+    display: block;
+}
